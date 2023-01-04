@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(237, 243, 243);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+header, main, footer {
+    padding: 20px;
+}
+
+header {
+    margin: 30px auto 0 auto;
+    background-image: url('https://www.wiomsa.org/wp-content/uploads/2019/03/Screenshot-2019-03-11-at-16.17.42.png');
+    height: 370px;
+    background-size: cover;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 22px;
+    color: white;
+    background-color: rgb(62, 62, 139);
+    border-radius: 5px;
+}
+
+header p {
+    color: white;
+    width: 300px;
+    background-color: rgb(153, 135, 194);
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+main {
+    width: 700px;
+    height: 370px;
+    background-color: rgb(187, 209, 208);
+    margin: 0 auto;
+    color: rgb(59, 54, 54);
+}
+
+h3 {
+    margin: 20px;
+    padding: 0;
+}
+
+main img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.activities {
+    display: flex;
+    margin: 40px;
+    justify-content: space-around;
+}
+
+.description {
+    margin: 5px;
+    padding: 10px;
+}
+
+.description h4 {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+footer {
+    width: 700px;
+    height: 350px;
+    margin: 0 auto 100px auto;
+    background-color: white;
+}
+
+footer #my-info {
+    width: 350px;
+    height: 250px;
+    margin: 50px auto;
+    padding: 20px 15px;
+    border-radius: 10px;
+    background-color: rgb(127, 197, 255);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+}
+
+#my-info img {
+    width: 180px;
+    height: 250px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+#my-info #my-description {
+    width: 150px;
+    color: rgb(59, 54, 54);
+}
